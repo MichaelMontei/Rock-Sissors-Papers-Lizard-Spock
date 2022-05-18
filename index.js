@@ -18,7 +18,7 @@ function rock() {
 document.getElementById('paper').addEventListener('click', paper);
 
 function paper() {
-    let paper = document.getElementById("paper").value;
+    let paper = document.getElementById("paper")
     console.log(paper);
 }
 

@@ -22,18 +22,20 @@ For the rules you can watch a [Youtube clip from the TV-show "The Big Bang Theor
 - Spock vaporizes Rock
 - Rock crushes Scissors
 
+![graphical view](/assets/images/electrocat.png)
+
 ## Must-have features
-- Have 5 buttons that the player can press to change their pick
-- Have another button to let the computer pick one and show the winner
-- Let the player know they won (no alert box)
-- Have a reset button
+- [X] Have 5 buttons that the player can press to change their pick
+- [X] Have another button to let the computer pick one and show the winner
+- [] Let the player know they won (no alert box)
+- [] Have a reset button
 
 ## Nice-to-have features
-- Nice graphics
-- Let the player input using a text field
-- Show what the player picked by highlighting the correct button
-- Add even more options (but avoid using 100 if statements)
-- Add complex rules
+- [] Nice graphics
+- [] Let the player input using a text field
+- [] Show what the player picked by highlighting the correct button
+- [] Add even more options (but avoid using 100 if statements)
+- [] Add complex rules
 
 
 

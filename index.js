@@ -1,29 +1,63 @@
+// make array for choices computer
+let arr = ['rock', 'paper', 'scissors', 'lizard', 'spock']
+// get the element and make a function for getting a random word
+document.getElementById('win').addEventListener("click", random);
+
+function random(){
+    let number = arr[Math.floor(Math.random() * arr.length)];
+    console.log(number);
+}
+
+document.getElementById('rock').addEventListener('click', rock);
+
+function rock() {
+    let rock = document.getElementById("rock").value;
+    console.log(rock);
+}
+
+document.getElementById('paper').addEventListener('click', paper);
+
+function paper() {
+    let paper = document.getElementById("paper").value;
+    console.log(paper);
+}
+
+document.getElementById('paper').addEventListener('click', scissors);
+
+function scissors() {
+    let scissors = document.getElementById("scissors").value;
+    console.log(scissors);
+}
+
+
+
+
+
+
+
 //Buttons selectors
-const rockBtn = document.querySelector('rock')
-const paperBtn = document.querySelector('paper');
-const scissorsBtn = document.querySelector('scissors');
-const lizardBtn = document.querySelector('lizard');
-const spockBtn = document.querySelector('spock');
-const winBtn = document.querySelector('computerButtonChoose');
+
 
 //Playerpoints en Computerpoints
-let playerPoints = document.querySelector('playerPointScore');
-let computerPoints = document.querySelector('computerPointScore');
+
 
 //Option Player choose
 
+/*const element = document.getElementById("win");
+element.addEventListener("click", computer);
 
-document.getElementById("rock").addEventListener("click", function(){
-
-})
-
-function computer(){
+function computer() {
     let computerRandom = Math.floor(Math.random() * 5);
-    if(computerRandom === 1){
-        let computerRock = computerRandom
-    
-
+    console.log(computerRandom);
+    if (computerRandom === 1) {
+        rock = computerRandom;
+    } else if (computerRandom === 2) {
+        paper = computerRandom;
+    } else if (computerRandom === 3) {
+        scissors = computerRandom;
+    } else if (computerRandom === 4) {
+        lizard = computerRandom;
+    } else if (computerRandom === 5) {
+        spock = computerRandom;
     }
-
-    }
-}
+}*/

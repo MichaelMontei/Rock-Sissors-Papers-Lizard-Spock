@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#containerPlayer{
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+
+#playerButtons{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#containerComputer{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}

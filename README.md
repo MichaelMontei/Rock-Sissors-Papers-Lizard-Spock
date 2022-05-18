@@ -22,20 +22,29 @@ For the rules you can watch a [Youtube clip from the TV-show "The Big Bang Theor
 - Spock vaporizes Rock
 - Rock crushes Scissors
 
-![graphical view](/assets/images/electrocat.png)
+![graphical view](assets/images/electrocat.png)
+
+## Making a Color palette
+
+- [X] Primary Color             <span style="color:#E0D3DE">Color: **#E0D3DE**</span>                      
+- [X] Secondary Color           <span style="color:#D8D0C1">Color: **#D8D0C1**</span>                     
+- [X] Accent/Highlight Color    <span style="color:#CBB8A9">Color: **#CBB8A9**</span>                   
+- [X] Dark Background Color     <span style="color:#B3B492">Color: **#B3B492**</span>
+- [X] Replacement for black     <span style="color:#6F686D">Color: **#6F686D**</span>
 
 ## Must-have features
+- [X] Create Basic Html Page & CSS Layout
 - [X] Have 5 buttons that the player can press to change their pick
 - [X] Have another button to let the computer pick one and show the winner
-- [] Let the player know they won (no alert box)
-- [] Have a reset button
+- [ ] Let the player know they won (no alert box)
+- [ ] Have a reset button
 
 ## Nice-to-have features
-- [] Nice graphics
-- [] Let the player input using a text field
-- [] Show what the player picked by highlighting the correct button
-- [] Add even more options (but avoid using 100 if statements)
-- [] Add complex rules
+- [ ] Nice graphics
+- [ ] Let the player input using a text field
+- [ ] Show what the player picked by highlighting the correct button
+- [ ] Add even more options (but avoid using 100 if statements)
+- [ ] Add complex rules
 
 
 

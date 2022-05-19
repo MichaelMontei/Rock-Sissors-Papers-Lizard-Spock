@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
+
 .bg-container {
     height: 100vh;
-=======
+}
 body{
-    background-color: #CBB8A9;
+    background-image: url("images/arcade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     overflow: hidden;
     height: 100vh;
     width: 100vw;
@@ -17,51 +20,148 @@ body{
     max-height: 100vh;
 }
 
-header{
-    text-align: center;
-}
-
-
-#containerPlayer{
-    display: flex;
-    height: 600px;
->>>>>>> 6eaaa430cbf20d375e5496204f41e1604d56224a
-    width: 100%;
-    background-image: url("images/arcade.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-}
-
-<<<<<<< HEAD
 h1{
-    text-align: center;
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+#containerPoints{
+    color: grey;
+    font-size: 9px;
+    display: flex;
+    position: absolute;
+    left: 350px;
+    top: 140px;
+}
+
+#containerPoints{
+    color: black;
+    font-size: 11px;
+    display: flex;
+    position: absolute;
+    left: 350px;
+    top: 140px;
+}
+
+#containerComputerPoints{
+    color: black;
+    font-size: 11px;
+    display: flex;
+    position: absolute;
+    left: 800px;
+    top: 140px;
+}
+
+h3{
+    position: absolute;
+    top: 50px;
+    color: grey;
+    right: 310px;
+}
+
+.computer{
+    font-size: 30px;
+    position: absolute;
+    top: 80px;
+    right: 360px;
     color: grey;
 }
 
-
-
-
-=======
-#playerButtons{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
+.result{
+    font-size: 30px;
+    position: absolute;
+    top: 80px;
+    color: grey;
+    right: 700px;
 }
 
-#containerComputer{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
+.rockBtn{
+    position: absolute;
+    left: 350px;
+    top: 489px;
 }
 
-button{
-    width: 100px;
-    border-radius: 30%;
-    margin: 10px;
+.paperBtn{
+    position: absolute;
+    left: 405px;
+    top: 449px;
 }
->>>>>>> 6eaaa430cbf20d375e5496204f41e1604d56224a
+
+.scissorsBtn{
+    position: absolute;
+    left: 465px;
+    top: 419px;
+}
+
+.lizardBtn{
+    position: absolute;
+    left: 490px;
+    top: 489px;
+}
+
+.spockBtn{
+    position: absolute;
+    left: 540px;
+    top: 439px;
+}
+
+#computerButtons{
+    position: absolute;
+    left: 830px;
+    top: 409px;
+}
+
+#rock{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 50%;
+    border: double 3px;
+    font-family: cursive;
+}
+
+#paper{
+    height: 60px;
+    width: 60px;
+    background-color: green;
+    border-radius: 50%;
+    border: double 3px;
+    font-family: cursive;
+}
+
+#scissors{
+    height: 60px;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: double 3px;
+    font-family: cursive;
+}
+
+#lizard{
+    height: 60px;
+    width: 60px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    border: double 3px;
+    font-family: cursive;
+}
+
+#spock{
+    height: 60px;
+    width: 60px;
+    background-color: olive;
+    border-radius: 50%;
+    border: double 3px;
+    font-family: cursive;
+}
+
+#win{
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    border: double 3px;
+    font-family: cursive;
+}

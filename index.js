@@ -31,15 +31,13 @@ function rock() {
 document.getElementById('paper').addEventListener('click', paper);
 
 function paper() {
-<<<<<<< HEAD
     playerSelection = "paper";
     console.log(playerSelection);
     random();
     game(playerSelection, computerChoice);
-=======
+
     let paper = document.getElementById("paper")
     console.log(paper);
->>>>>>> 6eaaa430cbf20d375e5496204f41e1604d56224a
 }
 
 document.getElementById('scissors').addEventListener('click', scissors);
@@ -86,19 +84,27 @@ function game(playerSelection, computerChoice){
                 case "paper":
                     blad.innerText = "Your opponent wins!"
                     computer.innerText = computerChoice;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
 
                     break;
                 case "scissors":
                     blad.innerText = "You win!"
                     computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
                     break;
                 case "lizard":
                     blad.innerText = "You win!"
                     computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
                     break;
                 case "spock":
                     blad.innerText = "Your opponent wins!"
                     computer.innerText = computerChoice;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
             }
             break;
@@ -107,18 +113,35 @@ function game(playerSelection, computerChoice){
             switch (computerChoice) {
                 case "scissors":
                     blad.innerText = "It's a draw!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
                 case "rock":
                     blad.innerText = "Your opponent wins!"
+                    computer.innerText = computerChoice;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
                 case "lizard":
                     blad.innerText = "You win!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
                     break;
                 case "paper":
                     blad.innerText = "You win!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
                     break;
                 case "spock":
                     blad.innerText = "Your opponent wins!"
+                    computer.innerText = computerChoice;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
 
             }
@@ -128,18 +151,35 @@ function game(playerSelection, computerChoice){
             switch (computerChoice) {
                 case "paper":
                     blad.innerText = "It's a draw!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
                 case "scissors":
                     blad.innerText = "Your opponent wins!"
+                    computer.innerText = computerChoice;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
                 case "rock":
                     blad.innerText = "You win!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
                     break;
                 case "spock":
                     blad.innerText = "You win!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
                     break;
                 case "lizard":
                     blad.innerText = "Your opponent wins!"
+                    computer.innerText = computerChoice;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
 
             }
@@ -149,18 +189,35 @@ function game(playerSelection, computerChoice){
             switch (computerChoice) {
                 case "lizard":
                     blad.innerText = "It's a draw!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
                 case "rock":
                     blad.innerText = "Your opponent wins!"
+                    computer.innerText = computerChoice;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
                 case "paper":
                     blad.innerText = "You win!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
                     break;
                 case "spock":
                     blad.innerText = "You win!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
                     break;
                 case "scissors":
                     blad.innerText = "Your opponent wins!"
+                    computer.innerText = computerChoice;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
 
             }
@@ -169,18 +226,35 @@ function game(playerSelection, computerChoice){
             switch (computerChoice) {
                 case "spock":
                     blad.innerText = "It's a draw!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
                 case "lizard":
                     blad.innerText = "Your opponent wins!"
+                    computer.innerText = computerChoice;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
                 case "rock":
                     blad.innerText = "You win!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
                     break;
                 case "scissors":
                     blad.innerText = "You win!"
+                    computer.innerText = computerChoice;
+                    playerScore++;
+                    updatePlayer.innerText = playerScore;
                     break;
                 case "paper":
                     blad.innerText = "Your opponent wins!"
+                    computer.innerText = computerChoice;
+                    computerScore++;
+                    updatecomputer.innerText = computerScore;
                     break;
 
             }

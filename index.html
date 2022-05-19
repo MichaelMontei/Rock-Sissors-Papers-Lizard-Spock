@@ -10,38 +10,44 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-<div class="bg-container">
 
-=======
+<div class="bg-container">
 <header>
->>>>>>> 6eaaa430cbf20d375e5496204f41e1604d56224a
 <h1 id="test">Rock-Sissors-Papers-Lizard-Spock</h1>
 </header>
 
 <main>
     <div id="containerPlayer">
         <p><span class="result"></span></p>
-        <h3>Computer Chooses: <span class="computer"> </span></h3>
-        <div id="playerButtons">
-            <button id="rock">Rock</button>
-            <button id="paper">Paper</button>
-            <button id="scissors">Scissors</button>
-            <button id="lizard">Lizard</button>
-            <button id="spock">Spock</button>
-        </div>
+        <h3>Computer Chooses: </h3>
+            <span class="computer"> </span>
+
+            <div class="rockBtn">
+                <button id="rock">Rock</button>
+            </div>
+            <div class="paperBtn">
+                <button id="paper">Paper</button>
+            </div>
+            <div class="scissorsBtn">
+                <button id="scissors">Scissors</button>
+            </div>
+
+            <button id="lizard"  class="lizardBtn">Lizard</button>
+            <button id="spock"  class="spockBtn">Spock</button>
     </div>
     <br>
         <div id="containerComputer">
             <div id="computerButtons">
-            <button id="win">Win or Lose?</button>
+            <button id="win">RESET</button>
             </div>
         </div>
 
 
         <div id="containerPoints">
-        <h2 id="playerPoints">Player points: <span class="playerPointScore">0</span></h2>
-        <h2 id="computerPoints">Computer Points: <span class="computerPointScore">0</span></h2>
+        <h2 id="playerPoints">Player points: <span class="playerPointScore"> 0 </span></h2>
+        </div>
+        <div id="containerComputerPoints">
+        <h2 id="computerPoints">Computer Points: <span class="computerPointScore"> 0 </span></h2>
         </div>
 </main>
 <script src="index.js"></script>

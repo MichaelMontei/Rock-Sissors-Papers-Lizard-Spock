@@ -21,13 +21,13 @@ body{
 }
 
 h1{
-    color: grey;
+    color: black;
     display: flex;
     justify-content: center;
 }
 
 #containerPoints{
-    color: grey;
+    color: black;
     font-size: 9px;
     display: flex;
     position: absolute;
@@ -65,14 +65,14 @@ h3{
     position: absolute;
     top: 80px;
     right: 360px;
-    color: grey;
+    color: red;
 }
 
 .result{
     font-size: 30px;
     position: absolute;
     top: 80px;
-    color: grey;
+    color: green;
     right: 700px;
 }
 

@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <title>First Game</title>
 </head>
+
 <body>
+<div class="bg-container">
+
 <h1 id="test">Rock-Sissors-Papers-Lizard-Spock</h1>
 
     <div id="containerPlayer">
+        <p><span class="result"></span></p>
+        <h3>Computer Chooses: <span class="computer"> </span></h3>
         <div id="playerButtons">
             <button id="rock">Rock</button>
             <button id="paper">Paper</button>
@@ -29,10 +34,11 @@
     </div>
 
         <div id="containerPoints">
-        <h2 id="playerPoints">Player points: <span id="playerPointScore">0</span></h2>
-        <h2 id="computerPoints">Computer Points: <span id="computerPointScore">0</span></h2>
+        <h2 id="playerPoints">Player points: <span class="playerPointScore">0</span></h2>
+        <h2 id="computerPoints">Computer Points: <span class="computerPointScore">0</span></h2>
         </div>
 
 <script src="index.js"></script>
+</div>
 </body>
 </html>

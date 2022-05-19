@@ -31,10 +31,15 @@ function rock() {
 document.getElementById('paper').addEventListener('click', paper);
 
 function paper() {
+<<<<<<< HEAD
     playerSelection = "paper";
     console.log(playerSelection);
     random();
     game(playerSelection, computerChoice);
+=======
+    let paper = document.getElementById("paper")
+    console.log(paper);
+>>>>>>> 6eaaa430cbf20d375e5496204f41e1604d56224a
 }
 
 document.getElementById('scissors').addEventListener('click', scissors);

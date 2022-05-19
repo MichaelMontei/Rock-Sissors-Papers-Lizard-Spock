@@ -4,8 +4,28 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .bg-container {
     height: 100vh;
+=======
+body{
+    background-color: #CBB8A9;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+header{
+    text-align: center;
+}
+
+
+#containerPlayer{
+    display: flex;
+    height: 600px;
+>>>>>>> 6eaaa430cbf20d375e5496204f41e1604d56224a
     width: 100%;
     background-image: url("images/arcade.jpg");
     background-repeat: no-repeat;
@@ -13,6 +33,7 @@
     background-position: bottom;
 }
 
+<<<<<<< HEAD
 h1{
     text-align: center;
     color: grey;
@@ -21,3 +42,26 @@ h1{
 
 
 
+=======
+#playerButtons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#containerComputer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    width: 100px;
+    border-radius: 30%;
+    margin: 10px;
+}
+>>>>>>> 6eaaa430cbf20d375e5496204f41e1604d56224a

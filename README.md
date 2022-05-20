@@ -22,7 +22,7 @@ For the rules you can watch a [Youtube clip from the TV-show "The Big Bang Theor
 - Spock vaporizes Rock
 - Rock crushes Scissors
 
-![graphical view](assets/images/electrocat.png)
+!(assets/images/electrocat.png)
 
 ## Making a Color palette
 
@@ -44,8 +44,8 @@ For the rules you can watch a [Youtube clip from the TV-show "The Big Bang Theor
 - [X] Nice graphics
 - [X] Show what the player picked by highlighting the correct button
 
-
-
-
+## Working Areas
+- [X] Had problems getting the values from the buttons in the array. (solved this by useing functions (random, game) in the eventListeners for the buttons.
+- [X] Adding the alert when the game gets to a score of 10. (solved this by replacing the if statement not in the switch or at the end, but at the beginning to check everytime
 
 

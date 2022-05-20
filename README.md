@@ -43,8 +43,8 @@ For the rules you can watch a [Youtube clip from the TV-show "The Big Bang Theor
 ## Nice-to-have features
 - [X] Nice graphics
 - [X] Show what the player picked by highlighting the correct button
-- [ ] Add even more options (but avoid using 100 if statements)
-- [ ] Add complex rules
+
+
 
 
 

@@ -50,7 +50,7 @@ function scissors() {
     game(playerSelection, computerChoice);
 }
 
-document.getElementById('lizard').addEventListener('click', lizard);
+document.getElementById('Lizard').addEventListener('click', lizard);
 
 function lizard() {
     playerSelection = "lizard";
